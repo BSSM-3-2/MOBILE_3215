@@ -9,7 +9,7 @@ import { ThemedView } from '@components/themed-view';
 
 export default function UserProfileScreen() {
     // 어떻게 받아와야 할까요?
-    const { id } = useLocalSearchParams();
+    const { id } = useLocalSearchParams<{ id: string }>();
 
     const user = MOCK_USERS_MAP[id];
     const posts = MOCK_POSTS.filter(post => post.userId === id);
