@@ -1,0 +1,5 @@
+! The local project doesn't define a 'packageManager' field. Corepack will now add one referencing yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e.
+! For more details about this field, consult the documentation at https://nodejs.org/api/packages.html#packagemanager
+
+error eslint-visitor-keys@5.0.1: The engine "node" is incompatible with this module. Expected version "^20.19.0 || ^22.13.0 || >=24". Got "23.9.0"
+error Found incompatible module.
